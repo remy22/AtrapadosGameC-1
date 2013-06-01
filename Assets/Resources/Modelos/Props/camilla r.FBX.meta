@@ -1,0 +1,87 @@
+fileFormatVersion: 2
+guid: 7d46cbbd06880574386cb9e44c0b9397
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Box034
+    100002: Box035
+    100004: Box036
+    100006: //RootNode
+    100008: camilla rota 1
+    100010: Particle View 001
+    100012: Plane011
+    100014: Plane014
+    400000: Box034
+    400002: Box035
+    400004: Box036
+    400006: //RootNode
+    400008: camilla rota 1
+    400010: Particle View 001
+    400012: Plane011
+    400014: Plane014
+    2300000: Box034
+    2300002: Box035
+    2300004: Box036
+    2300006: Plane011
+    2300008: Plane014
+    3300000: Box034
+    3300002: Box035
+    3300004: Box036
+    3300006: Plane011
+    3300008: Plane014
+    4300000: Box035
+    4300002: Plane011
+    4300004: Plane014
+    4300006: Box034
+    4300008: Box036
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

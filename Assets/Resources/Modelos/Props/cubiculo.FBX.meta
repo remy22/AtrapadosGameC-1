@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: 070bf4dfac28048dbbb0bb52d533316d
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: computador
+    100002: //RootNode
+    100004: cubiculos
+    100006: escritorio
+    100008: escritorio aux
+    100010: Line062
+    100012: mouse
+    100014: pantalla
+    100016: Particle View 001
+    100018: Particle View 002
+    100020: Particle View 003
+    100022: pc
+    100024: silla rodachines001
+    100026: teclado
+    400000: computador
+    400002: //RootNode
+    400004: cubiculos
+    400006: escritorio
+    400008: escritorio aux
+    400010: Line062
+    400012: mouse
+    400014: pantalla
+    400016: Particle View 001
+    400018: Particle View 002
+    400020: Particle View 003
+    400022: pc
+    400024: silla rodachines001
+    400026: teclado
+    2300000: cubiculos
+    2300002: escritorio
+    2300004: escritorio aux
+    2300006: mouse
+    2300008: pantalla
+    2300010: pc
+    2300012: silla rodachines001
+    2300014: teclado
+    3300000: cubiculos
+    3300002: escritorio
+    3300004: escritorio aux
+    3300006: mouse
+    3300008: pantalla
+    3300010: pc
+    3300012: silla rodachines001
+    3300014: teclado
+    4300000: silla rodachines001
+    4300002: escritorio
+    4300004: cubiculos
+    4300006: escritorio aux
+    4300008: pc
+    4300010: pantalla
+    4300012: teclado
+    4300014: mouse
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

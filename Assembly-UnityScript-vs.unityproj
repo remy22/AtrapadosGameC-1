@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{66CF740A-C0A7-5BE5-1423-28218A0B0D44}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_1;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\CursorControl\CursorControl(Unused).js" />
+     <Compile Include="Assets\Scripts\Dialogos\ArbolConversacion.js" />
+     <Compile Include="Assets\Scripts\Dialogos\LineaDialogo.js" />
+     <Compile Include="Assets\Scripts\Dialogos\NodoDialogo.js" />
+     <Compile Include="Assets\Scripts\Interactores\Interactor_Click.js" />
+     <Compile Include="Assets\Scripts\Interactores\Interactor_Habilidad(Deprecated).js" />
+     <Compile Include="Assets\Scripts\Interactores\Interactor_Trigger.js" />
+     <Compile Include="Assets\Scripts\Inventario\Inventario.js" />
+     <Compile Include="Assets\Scripts\Inventario\Item.js" />
+     <Compile Include="Assets\Scripts\Inventario\Loot.js" />
+     <Compile Include="Assets\Scripts\Inventario\LootManager1_5.js" />
+     <Compile Include="Assets\Scripts\Managers\IEvent_manager.js" />
+     <Compile Include="Assets\Scripts\Managers\Manager1.js" />
+     <Compile Include="Assets\Scripts\Managers\Manager1_5A.js" />
+     <Compile Include="Assets\Scripts\Managers\ManagerDialogos1.js" />
+     <Compile Include="Assets\Scripts\Managers\ManagerDialogos1_5A.js" />
+     <Compile Include="Assets\Scripts\Managers\Player_Manager.js" />
+     <Compile Include="Assets\Scripts\Managers\ScreenManager.js" />
+     <Compile Include="Assets\Scripts\MenuScript.js" />
+     <Compile Include="Assets\Scripts\MoverClick.js" />
+     <Compile Include="Assets\Scripts\MoverInput(Deprecated).js" />
+     <Compile Include="Assets\Scripts\MoverInput2(Deprecated).js" />
+     <Compile Include="Assets\Scripts\OnDistance(Deprecated).js" />
+     <Compile Include="Assets\Scripts\Player.js" />
+     <Compile Include="Assets\Scripts\Timer.js" />
+     <Compile Include="Assets\Scripts\TrasladarHorizontal.js" />
+     <Compile Include="Assets\Scripts\Unity Scripts\Mouse\MouseOrbit(unused).js" />
+     <Compile Include="Assets\Scripts\Unity Scripts\Mouse\SmoothFollow.js" />
+     <Compile Include="Assets\Scripts\Unity Scripts\Mouse\SmoothLookAt(Unused).js" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\SM2\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
+     <None Include="Assets\SM2\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\SM2\Plugins\AnBSoft Common\Standard Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\SM2\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{3EF6F99F-C977-C575-7845-8B3EE8C21C8C}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><MonoDevelop><Properties><Policies><TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="application/javascript" /><TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain" /><TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/x-unitytxt" /><TextStylePolicy inheritsSet="null" scope="text/x-shader" /></Policies></Properties></MonoDevelop></ProjectExtensions>
+
+</Project>

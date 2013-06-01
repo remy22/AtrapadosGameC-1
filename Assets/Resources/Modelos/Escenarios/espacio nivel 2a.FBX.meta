@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: f7b71fc67c19e4d388f78387b54ffe6b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 1
+    100002: 2
+    100004: 3
+    100006: 4
+    100008: 5
+    100010: 6
+    100012: 7
+    100014: 8
+    100016: 9
+    100018: Box059
+    100020: Box078
+    100022: //RootNode
+    100024: Line028
+    100026: Line029
+    100028: Line032
+    100030: Line034
+    100032: Line035
+    100034: Line036
+    100036: Line037
+    100038: Line038
+    100040: Line056
+    100042: Line062
+    100044: Line063
+    100046: Line064
+    100048: Particle View 001
+    100050: Particle View 002
+    100052: Particle View 003
+    100054: Plane001
+    400000: 1
+    400002: 2
+    400004: 3
+    400006: 4
+    400008: 5
+    400010: 6
+    400012: 7
+    400014: 8
+    400016: 9
+    400018: Box059
+    400020: Box078
+    400022: //RootNode
+    400024: Line028
+    400026: Line029
+    400028: Line032
+    400030: Line034
+    400032: Line035
+    400034: Line036
+    400036: Line037
+    400038: Line038
+    400040: Line056
+    400042: Line062
+    400044: Line063
+    400046: Line064
+    400048: Particle View 001
+    400050: Particle View 002
+    400052: Particle View 003
+    400054: Plane001
+    2300000: 1
+    2300002: 2
+    2300004: 3
+    2300006: 4
+    2300008: 5
+    2300010: 6
+    2300012: 7
+    2300014: 8
+    2300016: 9
+    2300018: Box059
+    2300020: Box078
+    2300022: Line028
+    2300024: Line029
+    2300026: Line032
+    2300028: Line034
+    2300030: Line035
+    2300032: Line036
+    2300034: Line037
+    2300036: Line056
+    2300038: Line064
+    2300040: Plane001
+    3300000: 1
+    3300002: 2
+    3300004: 3
+    3300006: 4
+    3300008: 5
+    3300010: 6
+    3300012: 7
+    3300014: 8
+    3300016: 9
+    3300018: Box059
+    3300020: Box078
+    3300022: Line028
+    3300024: Line029
+    3300026: Line032
+    3300028: Line034
+    3300030: Line035
+    3300032: Line036
+    3300034: Line037
+    3300036: Line056
+    3300038: Line064
+    3300040: Plane001
+    4300000: Line028
+    4300002: Line029
+    4300004: Line032
+    4300006: Box059
+    4300008: Line034
+    4300010: Box078
+    4300012: Line035
+    4300014: Line036
+    4300016: Line037
+    4300018: 9
+    4300020: 1
+    4300022: 8
+    4300024: 2
+    4300026: Line056
+    4300028: 3
+    4300030: 7
+    4300032: 6
+    4300034: 4
+    4300036: 5
+    4300038: Plane001
+    4300040: Line064
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
