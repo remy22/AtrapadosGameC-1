@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{66CF740A-C0A7-5BE5-1423-28218A0B0D44}</ProjectGuid>
+	<ProjectGuid>{39BF8543-FF97-4DF4-50DF-8DDE2134985D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -57,9 +57,9 @@
      <Compile Include="Assets\Scripts\Inventario\LootManager1_5.js" />
      <Compile Include="Assets\Scripts\Managers\IEvent_manager.js" />
      <Compile Include="Assets\Scripts\Managers\Manager1.js" />
-     <Compile Include="Assets\Scripts\Managers\Manager1_5A.js" />
+     <Compile Include="Assets\Scripts\Managers\Manager1_5C.js" />
      <Compile Include="Assets\Scripts\Managers\ManagerDialogos1.js" />
-     <Compile Include="Assets\Scripts\Managers\ManagerDialogos1_5A.js" />
+     <Compile Include="Assets\Scripts\Managers\ManagerDialogos1_5C.js" />
      <Compile Include="Assets\Scripts\Managers\Player_Manager.js" />
      <Compile Include="Assets\Scripts\Managers\ScreenManager.js" />
      <Compile Include="Assets\Scripts\MenuScript.js" />
@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{3EF6F99F-C977-C575-7845-8B3EE8C21C8C}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{ADE3499D-6FAB-7446-9C12-2C6E636FA731}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

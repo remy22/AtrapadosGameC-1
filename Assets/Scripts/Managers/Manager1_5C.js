@@ -24,7 +24,7 @@ var texturaCuadroMario : Texture2D;
 var texturaCuadroFrancisco : Texture2D;
 
 function Awake () {
-GetComponent(Player_Manager).addPlayer(new Player(texturaCuadroDario,Player_Manager.DARIO, "Dario" , texturaCursorDario));
+GetComponent(Player_Manager).addPlayer(new Player(texturaCuadroDario,Player_Manager.DARIO, "Cristina" , texturaCursorDario));
 }
 
 
@@ -35,45 +35,45 @@ function EventTrigger(objName : String){
 
 //Imlementación de la funcion Switch()
 function EventSwitch(comando : String){
-	var managerDialogos = GetComponent(ManagerDialogos1_5A);
+	var managerDialogos = GetComponent(ManagerDialogos1_5C);
 	var lootManager = GetComponent(LootManager1_5);
 	if(comando.Equals("Diana")){
 	
-	managerDialogos.empezarDialogos(ManagerDialogos1_5A.CONVERSACION_DIANA);
+	managerDialogos.empezarDialogos(ManagerDialogos1_5C.CONVERSACION_DIANA);
 	
 	}
 	
 	if(comando.Equals("Fabio")){
 	
-	managerDialogos.empezarDialogos(ManagerDialogos1_5A.CONVERSACION_FABIO);
+	managerDialogos.empezarDialogos(ManagerDialogos1_5C.CONVERSACION_FABIO);
 	
 	}
 	
-	if(comando.Equals("Cristina")){
+	if(comando.Equals("Dario")){
 	
-	managerDialogos.empezarDialogos(ManagerDialogos1_5A.CONVERSACION_CRISTINA);
+	managerDialogos.empezarDialogos(ManagerDialogos1_5C.CONVERSACION_DARIO);
 	
 	}
 	
 	if(comando.Equals("Mario")){
 	
-	managerDialogos.empezarDialogos(ManagerDialogos1_5A.CONVERSACION_MARIO);
+	managerDialogos.empezarDialogos(ManagerDialogos1_5C.CONVERSACION_MARIO);
 	
 	}
 	
 	if(comando.Equals("Francisco")){
 	
-	managerDialogos.empezarDialogos(ManagerDialogos1_5A.CONVERSACION_FRANCISCO);
+	managerDialogos.empezarDialogos(ManagerDialogos1_5C.CONVERSACION_FRANCISCO);
 	
 	}
 	if(comando.Equals("Armario 1")){
 	
-	managerDialogos.empezarDialogos(ManagerDialogos1_5A.CONVERSACION_ARMARIO1);
+	managerDialogos.empezarDialogos(ManagerDialogos1_5C.CONVERSACION_ARMARIO1);
 	
 	}
 	if(comando.Equals("Armario 2")){
 	
-	managerDialogos.empezarDialogos(ManagerDialogos1_5A.CONVERSACION_ARMARIO2);
+	managerDialogos.empezarDialogos(ManagerDialogos1_5C.CONVERSACION_ARMARIO2);
 	
 	}
 	
@@ -84,26 +84,26 @@ function EventDialog(idResultado : int){
 
 switch(idResultado){
 
-case ManagerDialogos1_5A.NEGACION:
+case ManagerDialogos1_5C.NEGACION:
 
 break;
-case ManagerDialogos1_5A.ACEPTACION_DIANA:
+case ManagerDialogos1_5C.ACEPTACION_DIANA:
 GetComponent(Player_Manager).addPlayer(new Player(texturaCuadroDiana,Player_Manager.DIANA, "Diana" , texturaCursorDiana));
 break;
 
-case ManagerDialogos1_5A.ACEPTACION_MARIO:
+case ManagerDialogos1_5C.ACEPTACION_MARIO:
 GetComponent(Player_Manager).addPlayer(new Player(texturaCuadroMario,Player_Manager.MARIO, "Mario" , texturaCursorMario));
 break;
 
-case ManagerDialogos1_5A.ACEPTACION_FRANCISCO:
+case ManagerDialogos1_5C.ACEPTACION_FRANCISCO:
 GetComponent(Player_Manager).addPlayer(new Player(texturaCuadroFrancisco,Player_Manager.FRANCISCO, "Francisco" , texturaCursorFrancisco));
 break;
 
-case ManagerDialogos1_5A.DIALOGO_ARMARIO1:
+case ManagerDialogos1_5C.DIALOGO_ARMARIO1:
 GetComponent(LootManager1_5).empezarLoot(LootManager1_5.LOOT_ARMARIO1);
 break;
 
-case ManagerDialogos1_5A.DIALOGO_ARMARIO2:
+case ManagerDialogos1_5C.DIALOGO_ARMARIO2:
 GetComponent(LootManager1_5).empezarLoot(LootManager1_5.LOOT_ARMARIO2);
 break;
 
